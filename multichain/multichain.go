@@ -97,7 +97,5 @@ func AddItemToStream(key, data, streamName string){
 	}
 
 	defer resp.Body.Close()
-
-
 }
 
